@@ -1,0 +1,18 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "1.\tExtract the CRUD folder\r 2.\trun npm install on the CRUD folder to install all the node modules and dependecies\r 3.\tdownload postman to test all the endpoints\r \t\tURLS\r 1. http://localhost:3009/api/user/add           ADDING NEW USER TO THE DATABASE\r 2.http://localhost:3009/api/users\t GETTING ALL THE USERS FROM THE DATABASE\r 3.http://localhost:3009/api/user/update/60953efd655aa50e30e02daf\t\tUPDATING A USER FROM THE DATABASE\r 4.http://localhost:3009/api/employee/60953efd655aa50e30e02daf\t\tDELETING A USER FROM THE DATABASE",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "postman": "^0.2.0"
+  },
+  "devDependencies": {}
+}
